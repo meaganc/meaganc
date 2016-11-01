@@ -1,0 +1,53 @@
+$dark-raspberry: rgba(153, 57, 85, 1);
+$light-purple: rgba(174, 118, 166, 1);
+$light-turquoise: rgba(163, 195, 217, 1);
+$color4: rgba(204, 214, 235, 1);
+$off-white: rgba(233, 236, 245, 1);
+
+.header-image {
+  background: url('/assets/mtcook.jpg') no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.meagan-photo {
+  width: 25%;
+  filter: grayscale(75%);
+  float: left;
+  margin-right: 5%;
+}
+
+.home {
+  img {
+    width: 65%;
+    margin-bottom: 25px;
+  }
+}
+
+#instafeed {
+  clear: both;
+
+  a {
+    padding: 5px;
+  }
+
+  img {
+    width: 150px;
+    padding-bottom: 15px;
+  }
+}
+
+.site-footer {
+  background-image:
+    linear-gradient(45deg,
+      lighten($color4, 2%), $color4
+    );
+  color: $off-white;
+  border-top:1px solid transparent !important;
+  padding: 15px 0 !important;
+}
+
+#mapid {
+  height: 400px;
+}

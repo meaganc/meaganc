@@ -1,0 +1,9 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import 'custom';
+
+
+// Import partials from the `minima` theme.
+@import "minima-overridden";
